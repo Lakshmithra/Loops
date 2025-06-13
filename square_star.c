@@ -14,6 +14,6 @@ int main(){
       for(j=1;j<=rows;j++){
       printf("%c",'*');
     }
-    printf("%c\n",'*');
+    printf("\n");
    }
 }
