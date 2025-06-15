@@ -1,4 +1,4 @@
-\\ Printing grade
+// Printing grade
 
 #include <stdio.h>
 #include<ctype.h>
