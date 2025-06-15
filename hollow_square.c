@@ -1,22 +1,22 @@
 \\ Printing hollow square
 
 #include <stdio.h>
-
 int main() {
 
-   int i,j,rows;
+   int i,j,rows,columns;
    printf("Enter number of rows:");
    scanf("%d",&rows);
+   printf("Enter number of columns:");
+   scanf("%d",&columns);
 
    for(i=1;i<=rows;i++){
-       if(i==1||i==rows){
-           printf("*****\n");
+        for(j=1;j<=columns;j++){
+            if(i==1||i==rows||j==1||j==columns){
+            printf("*");
+       } else  {
+           printf(" ");
        }
-       else if(i%2==1){
-           printf("*   *\n");
-       }
-       else {
-           printf("\n");
-       }
+        }
+        printf("\n");
    }
 }
