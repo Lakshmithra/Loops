@@ -1,4 +1,4 @@
-\\ Right angled triangle with numbers
+// Right angled triangle with numbers
 
 #include <stdio.h>
 int main() {
