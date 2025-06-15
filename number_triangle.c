@@ -1,4 +1,4 @@
-\\ Printing number triangle
+// Printing number triangle
 
 #include <stdio.h>
 
