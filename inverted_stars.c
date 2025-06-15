@@ -1,4 +1,4 @@
-\\ Printing inverted triangle of stars
+// Printing inverted triangle of stars
 
 #include<stdio.h>
 
